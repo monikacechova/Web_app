@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome used books</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A list of awesome used books that you can purchase cheaply and inexpensively">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-config" content="icons/browserconfig.xml">
+    <meta name="theme-color" content="#f12020">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Awesome Used <span style="text-decoration: line-through">Cars</span> Books</h1>
+    <form action="search.html">
+      <input name="search" type="search">
+      <input type="submit" value="search">
+    </form>
+    <nav>
+        <a href="index.html">All</a>
+    </nav>
+    <section id="posts"></section>
+    <template class="postTemplate">
+        <article>
+            <header>
+                <a href="sub.html?id=51"><h1>TITLE GOES HERE</h1></a>
+                <p>Published by <span class="publisher"></span></p>
+                <img src="" alt="" class="cover">
+            </header>
+            <section class="body-copy">BODY STUFF HERE</section>
+        </article>
+    </template>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
